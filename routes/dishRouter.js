@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const Dishes = require("../models/dishes");
 var authenticate = require("../authenticate");
-const { log } = require("debug");
 
 const dishRouter = express.Router();
 
